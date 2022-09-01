@@ -4,5 +4,11 @@
 
 function multiples(num){
     let arr = []
+    for (let i = 1; i < 10; i++){
+        let res = num * i
+        arr.push(res)
+    }
+    console.log(arr)
+    return arr
 }
 multiples(9)
